@@ -198,12 +198,29 @@
             margin-bottom: 1.5rem;
         }
 
+        .member-phone {
+
+            margin-top: auto;
+            font-size: 1.2rem;
+            padding-top: 1.5rem;
+        }
+
+
+
         .skill-tag {
             background-color: var(--main-organization-color);
             color: var(--highlight-color);
             padding: 0.3rem 0.8rem;
             border-radius: 1rem;
             font-size: 0.75rem;
+        }
+
+        .phone-tag {
+            background-color: #9ca3af;
+            color: var(--highlight-color);
+            padding: 0.2rem 0.8rem;
+            border-radius: 0.5rem;
+            font-size: 1rem;
         }
 
 
@@ -350,6 +367,7 @@
                     .map(skill => skill.name)
                 : [];
 
+
             // 자기소개 요약
             const introText = member.introduction?.detail || member.introduction?.quote || '';
 
@@ -364,6 +382,7 @@
                 <div class="member-skills">
                     ${topSkills.map(skill => `<span class="skill-tag font-regular">${skill}</span>`).join('')}
                 </div>
+                <div class="member-phone font-bold"><span class="phone-tag font-regular">${member.info?.phone || '번호 없음'}</span></div>
             `;
 
             container.appendChild(card);

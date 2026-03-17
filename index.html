@@ -174,7 +174,11 @@
             font-size: 1rem;
             margin-bottom: 1.5rem;
         }
+        .member-strengths {
+            color : var(--main-font-color);
+            margin-bottom: 1.5rem;
 
+        }
         .member-intro {
             color: var(--secondary-font-color);
             font-size: 0.9rem;
@@ -355,6 +359,7 @@
                 </div>
                 <div class="member-name font-bold">${member.name || '이름 없음'}</div>
                 <div class="member-subname font-regular">${member.subName || ''}</div>
+                <div class="member-strengths font-bold">${member.strengths || ''}</div>
                 <div class="member-intro font-regular">${introText}</div>
                 <div class="member-skills">
                     ${topSkills.map(skill => `<span class="skill-tag font-regular">${skill}</span>`).join('')}

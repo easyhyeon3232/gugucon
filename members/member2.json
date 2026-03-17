@@ -4,8 +4,8 @@
   "subName": "백엔드 개발자",
   "profileImage": "image/profile_image.png",
   "introduction": {
-    "quote": "안정적인 서버를 구축하는 spring백엔드 개발자입니다.",
-    "detail": "확장 가능하고 안정적인 백엔드 시스템을 설계하고 구현하는 것을 전문으로 합니다. Node.js와 Python을 활용하여 효율적인 API 서버를 개발하고 있습니다. 데이터베이스 최적화와 시스템 아키텍처에 관심이 많습니다."
+    "quote": "안정적인 서버를 구축하는 spring백엔드 예비 개발자입니다.",
+    "detail": "효율적인 API 설계와 데이터베이스 최적화를 꿈꾸는 spring 백엔드 개발자 공부중인 남동엽입니다.기본기에 충실한 설계를 통해 신뢰받는 백엔드 환경을 만드는 것에 가치를 둡니다."
   },
   "info": {
     "description": "Node.js와 Python을 활용하여 백엔드 개발을 하고 있습니다.",

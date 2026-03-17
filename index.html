@@ -359,6 +359,8 @@
                 <div class="member-skills">
                     ${topSkills.map(skill => `<span class="skill-tag font-regular">${skill}</span>`).join('')}
                 </div>
+
+                <div class="member-birthday font-regular">${member.info?.birthday || '생일 정보 없음'}</div>
             `;
 
             container.appendChild(card);
